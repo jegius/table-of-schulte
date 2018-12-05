@@ -1,0 +1,96 @@
+.table {
+  font-family: sans-serif;
+  margin: 100px auto;
+}
+
+.table__row {
+  margin: 0 auto;
+  width: 1000px;
+  clear: both;
+}
+
+.button {
+  transition: all .2s ease-out;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 9px 20px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+.end .table__cell {
+  background-color: rgba(255, 106, 93, .5)
+}
+
+.come-to-end .table__cell {
+  background-color: rgba(179, 177, 24, .26);
+}
+
+.timer-button-box .button {
+  float: left;
+  margin-right: 20px;
+}
+
+.timer-button-box {
+  height: 100px;
+  width: 400px;
+}
+
+.reset {
+  background:  rgba(255, 106, 93, 1);
+}
+
+.start {
+  background: rgba(69, 128, 94, 1);
+}
+
+.timer-table {
+  width: 100px;
+  margin-bottom: 20px;
+  font-size: 100px;
+  color: black;
+  padding: 0 100px;
+}
+
+.button:hover {
+  opacity: .5;
+}
+
+.button-box {
+  transition: all 1s ease-out 0.5s;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  position: fixed;
+  right: 0;
+  width: 500px;
+  height: 500px;
+  top: 0;
+  padding: 40px;
+}
+
+.table__cell {
+  transition: all 1s ease-out 0.5s;
+  padding: 34px;
+  text-align: center;
+  float: left;
+  border-radius: 3px;
+  width: 79px;
+  font-size: 70px;
+  height: 79px;
+  border: 1px solid beige;
+}
+
+.come-to-end .table__cell.center {
+  background-color: #4e8262;
+
+}
+.end .table__cell.center {
+  background-color: rgba(53, 130, 109, 0.22);
+}
+
+.center {
+  background-color: #398275;
+}
